@@ -7,7 +7,7 @@ Just go to [https://console.aws.amazon.com/iam/home#/security_credential](https:
 ## Settings
 
 ```go
-polly := golang_tts.New("AKIBI2FJJVG77M7OC3DQ", "/PEiT4T+27zG7E0Z4+8EJHASn92Au7JWMNrGwR8Z")
+polly := golang_tts.New("<my_access_key>", "<my_secret>")
 
 polly.Format(golang_tts.MP3)
 polly.Voice(golang_tts.Brian)
